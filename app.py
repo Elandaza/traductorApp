@@ -1,4 +1,3 @@
-
 from flask import Flask, request, render_template
 import os
 import requests, json
@@ -9,7 +8,7 @@ global cog_region
 
 try:
     cog_key = os.environ.get("COG_SERVICE_KEY")
-    cog_region = os.environ.get("COG_SERVICE_REGION")      
+    cog_region = os.environ.get("COG_SERVICE_REGION")    
     translator_endpoint = 'https://api.cognitive.microsofttranslator.com'   
 except Exception as ex:        
     print(ex)
