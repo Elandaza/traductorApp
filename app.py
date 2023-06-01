@@ -7,8 +7,8 @@ global cog_key
 global cog_region
 
 try:
-    cog_key = os.environ.get("1b5e292d62254c9888a96c5566c15440")
-    cog_region = os.environ.get("eastus")      
+    cog_key = os.environ.get("COG_SERVICE_KEY")
+    cog_region = os.environ.get("COG_SERVICE_REGION")      
     translator_endpoint = 'https://api.cognitive.microsofttranslator.com'   
 except Exception as ex:        
     print(ex)
