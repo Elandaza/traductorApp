@@ -1,0 +1,2 @@
+# traductorApp
+aplicacion de traducción
